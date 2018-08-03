@@ -1,0 +1,134 @@
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+input:focus {
+  background: lightgray;
+}
+
+.cabecera {
+	width: 97.1%;
+	height: 150px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.cabecera img{
+	width: 200px;
+	height: 100px;
+}
+
+.menu {
+	background-color: #355ac5;
+	width: 100%;
+	display: flex;
+	height: auto;
+	justify-content: space-around;
+}
+
+.menu ul {
+	margin: 10;
+}
+
+.menu li {
+	margin-top: 0;
+	margin-left: 120px;
+	display: inline-flex;
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+}
+
+.cuerpo {
+	width: 100%;
+	height: auto;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.img-info-arqueria {
+	width: 300px;
+	height: auto;
+}
+
+.imagen-principal {
+	width: 100%;
+	height: auto;
+}
+
+.contenido_cuerpo {
+	padding: 0 100px 0 100px ;
+}
+
+.contenido_main {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.secciones_main {
+	width: 383px;
+	padding: 0 10px 0 10px ;
+}
+
+.secciones_main a img {
+	width: 300px;
+	height: auto;
+
+}
+
+.formularioA {
+	width: 457px;
+}
+
+.EFA {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px;
+}
+
+.boton {
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #3cc535;
+	text-decoration: none;
+	text-decoration-color: black;
+}
+
+.pie {
+	width: 100%;
+	height: auto;
+	background-color: #355ac5;
+}
+
+.patrocinadores {
+	display: flex;
+	justify-content: space-around;
+		padding: 20px 0 20px 0 ;
+}
+
+.patrocinadores img {
+	width: 200px;
+	height: auto;
+	background-color: white;
+}
+
+.eventos {
+	width: 50%;
+	text-anchor: 50px;
+	border-bottom: solid #355ac5;
+	text-align: center;
+	padding: 37;
+}
+
